@@ -1,5 +1,5 @@
 // 발급받으신 GAS 웹앱 URL을 여기에 붙여넣으세요.
-const GAS_URL = "여기에_웹앱_URL을_넣어주세요";
+const GAS_URL = "https://script.google.com/macros/s/AKfycbwZLjZbIVRaptAEW9z2Fv5eycDOoqzeHQvfMYxpmEkmJcyWXRR2KpNjIMphrd9_sfKgdg/exec";
 
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   if (request.action === "translate") {
